@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kafuco Course Application Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css?v=<?php echo time(); ?>" rel="stylesheet">
+    <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script src="jss/check.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="brand">Kafuco Course Application Website</div>
+    <div class="address-bar"></div>
+
+   <?php require_once 'nav.php'; ?>
+   <div class="modal fade" id="submit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+    <form id="form">
+        <img src="img/kafuco.png">
+       
+<div class="form group">
+<!--
+<h1>Academic Details</h1>
+<p>Enter your Mean grade: <input type="text" id="grade" placeholder="Enter your mean grade"></p>
+
+-->
+    <!-- <small>Click on the links to be able to choose the course</small>
+    <p>Undergraduate programmes<small> (only grade C+ and above)</small></p>
+ <p><a href="cv/bachelor%20of%20criminology.php"/>Bachelor of Criminology</p>
+<p><a href="cv/bachelor%20of%20Education(arts).php"/>Bachelor of Education(Arts)</p>
+<p><a href="cv/bachelor%20of%20science(Information%20Technology).php"/>Bachelor of Science(I.T)</p> 
+<p><a href="cv/bachelor%20of%20social%20work.php"/>Bachelor of Social Work</p>
+<p><a href="cv/bachelor%20of%20commerce.php"/>Bachelor of Commerce</p>
+<p><a href="cv/bachelor%20of%20dmip.php"/>Bachelor of Disaster Management & Internal Diplomancy</p>
+<br> -->
+<p>Diploma programmes <small> (only grade C- and above)</small></p>
+<p><a href="cv/diploma%20of%20social%20work.php"/>Diploma in Social Work & Community Development</p>
+<p><a href="cv/diploma%20business.php"/> Diploma in Business Management</p> 
+<p><a href="cv/diploma%20it.php"/>Diploma in Information Technology</p>
+<p><a href="cv/diploma%20public%20relations.php"/>Diploma in Public Relations and Creative Advertising</p>
+<p><a href="cv/diploma%20criminology.php"/>Diploma in Criminology & Criminal Justice</p>
+<p><a href="cv/diploma%20in%20project%20management.php"/>Diploma in Project Management</p>
+<p><a href="cv/diploma%20ethics%20and%20corruption%20studies.php"/>Diploma in Ethics and Corruption Stuies</p>  
+    <br>
+    <!-- <p>Certificate programmes <small> (only grade D+ and above)</small></p>
+        <p><a href="cv/certificate%20social%20work%20.php"/>Certificate in Social Work & Community Work</p> 
+        <p><a href="cv/certificate%20business%20management.php"/>Certificate in Business Management</p>
+        <p><a href="cv/certificate%20in%20information%20technology.php"/>Certificate in Information Technology</p>
+          <p><a href="cv/certificate%20in%20criminology%20&criminal%20justice.php"/>Certificate in Criminology & Criminal Justice</p>
+</div> -->
+<br>
+    <div class="form-group">
+    <a href="academia.php" class="btn btn-danger" id="prev-2">Previous</a>
+    <a href="#" class="btn btn-danger" id="next-2">Next</a>
+    </div>
+    </form>
+    
+    </body>
+    
+
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Your Website 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+
+</body>
+
+</html>
